@@ -1,10 +1,10 @@
-import { usePlausible } from 'next-plausible'
-import { siteMeta } from '@/config/general'
-
-import { PageLayout } from '@/layouts/site-layout'
 import { Anchor } from '@/components/elements'
-
+import { PageLayout } from '@/components/layouts/partials'
+import { siteMeta } from '@/config/general'
+import { usePlausible } from 'next-plausible'
 import Banner from '~/images/banner.svg'
+
+
 
 export default function Home() {
   const plausible = usePlausible()

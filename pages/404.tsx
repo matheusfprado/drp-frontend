@@ -1,4 +1,4 @@
-import { Anchor, LogoIpsum, MetaHead } from '@/components/elements'
+import { Anchor, MetaHead } from '@/components/elements'
 
 export default function Error404() {
   return (
@@ -15,7 +15,6 @@ export default function Error404() {
         <div className='relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10'>
           <div className='max-w-md mx-auto'>
             <div className='inline-flex items-center space-x-3'>
-              <LogoIpsum className='w-auto h-8' />
               <h1>
                 <h1 className='text-2xl font-bold '>404 - Page not found</h1>
               </h1>

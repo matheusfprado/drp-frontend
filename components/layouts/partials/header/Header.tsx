@@ -1,8 +1,10 @@
-import { useTheme } from 'next-themes'
 
 import { ThemeSwitcher } from '@/components/elements'
+import { useTheme } from 'next-themes'
 
-const Header = ({ ...props }) => {
+export interface IHeader {}
+
+const Header: React.FC<IHeader> = ({ ...props }) => {
   const { theme } = useTheme()
 
   return (
@@ -17,4 +19,8 @@ const Header = ({ ...props }) => {
   )
 }
 
-export default Header
+export default Header;
+
+
+
+

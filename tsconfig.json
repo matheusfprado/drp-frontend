@@ -19,7 +19,7 @@
       "@/config/*": ["config/*"],
       "@/components/*": ["components/*"],
       "@/data/*": ["data/*"],
-      "@/layouts/*": ["layouts/*"],
+      "@/layouts/*": ["components/layouts/*"],
       "@/libraries/*": ["libraries/*"],
       "@/hooks/*": ["hooks/*"],
       "@/styles/*": ["styles/*"],

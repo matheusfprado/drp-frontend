@@ -153,5 +153,8 @@
     "tabWidth": 2,
     "trailingComma": "none",
     "useTabs": false
+  },
+  "resolutions": {
+    "webpack": "^5"
   }
 }

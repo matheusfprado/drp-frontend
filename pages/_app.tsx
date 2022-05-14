@@ -1,18 +1,15 @@
-import type { AppProps } from 'next/app'
+import '@/libraries/fontloader'
+import '@/styles/custom.css'
+// import { Maintenance } from '@/components/partials'
+import '@/styles/tailwind.css'
 import PlausibleProvider from 'next-plausible'
 import { ThemeProvider } from 'next-themes'
-import '@/libraries/fontloader'
+import type { AppProps } from 'next/app'
 
-import { Maintenance } from '@/components/partials'
-
-import '@/styles/tailwind.css'
-import '@/styles/custom.css'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   // Display this page when maintenance mode is enabled.
-  return process.env.NEXT_PUBLIC_MAINTENANCE_MODE === 'true' ? (
-    <Maintenance />
-  ) : (
+  return (
     <PlausibleProvider
       enabled={process.env.NODE_ENV === 'production'}
       domain='next-start.vercel.app'

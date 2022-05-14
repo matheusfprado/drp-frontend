@@ -399,7 +399,7 @@ I personally like to take a fairly simplistic approach, keep things separated ba
 
 ```
 /components
-/lib
+/libraries
 /pages
 ```
 

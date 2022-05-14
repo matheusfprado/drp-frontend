@@ -1,7 +1,7 @@
+import { Anchor } from '@/components/elements'
+import { PageLayout } from '@/components/layouts/partials'
 import { TriangleLeft } from 'akar-icons'
 
-import { PageLayout } from '@/layouts/site-layout'
-import { Anchor } from '@/components/elements'
 
 export default function About() {
   return (

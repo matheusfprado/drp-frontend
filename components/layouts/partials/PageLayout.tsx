@@ -1,10 +1,10 @@
-import { FC } from 'react'
-import { siteMeta } from '@/config/general'
-
-import { Footer, Header } from '@/layouts/site-layout'
 import { MetaHead, ScrollUp } from '@/components/elements'
-
+import { Footer, Header } from '@/components/layouts/partials'
+import { siteMeta } from '@/config/general'
+import { FC } from 'react'
 import PageTransition from '../PageTransition'
+
+
 
 interface Props {
   children: React.ReactNode
