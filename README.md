@@ -1,25 +1,3 @@
-<p align="center"><img src="./public/images/banner.svg" width="500" height="150" alt="Project Logo"></p>
-<p align="center">
-    <a href="https://github.com/riipandi/next-tailwind-starter/pulse">
-        <img src="https://img.shields.io/badge/Contributions-welcome-blue.svg?style=flat-square" alt="Contribution welcome">
-    </a>
-    <a href="https://github.com/riipandi/next-tailwind-starter">
-        <img src="https://img.shields.io/github/languages/top/riipandi/next-tailwind-starter?style=flat-square" alt="Top language">
-    </a>
-    <a href="https://aris.mit-license.org">
-        <img src="https://img.shields.io/github/license/riipandi/next-tailwind-starter?style=flat-square" alt="License">
-    </a>
-</p>
-
-## Introduction
-
-A starter project for [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com)
-and [Typescript](https://www.typescriptlang.org/). This starter kit already pre-configured
-with [absolute import](https://jsdev.org/env/nodejs/absolute-path-imports/),
-[TailwindUI](https://tailwindui.com), [Framer Motion](https://www.framer.com/motion/),
-and some [other goodies](./package.json). This starter also provides [Dockerfile](./Dockerfile), just in case you want to
-deploy using containerization or even Kubernetes.
-
 ## Quick Start
 
 ### Installation

@@ -9,3 +9,7 @@ package.json
 public/
 yarn.lock
 .vercel/
+.yarn
+.next
+dist
+node_modules
