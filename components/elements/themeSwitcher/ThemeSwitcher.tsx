@@ -1,17 +1,18 @@
-import { Switch } from '@headlessui/react'
-import { MoonFill, Sun } from 'akar-icons'
-import { useTheme } from 'next-themes'
-import React, { useEffect, useState } from 'react'
+import { classNames } from '@/libraries/helpers';
+import { Switch } from '@headlessui/react';
+import { MoonFill, Sun } from 'akar-icons';
+import { useTheme } from 'next-themes';
+import React, { useEffect, useState } from 'react';
 
-import { classNames } from '@/libraries/helpers'
 
-interface Props {
+export interface IThemeSwitcher {
   className?: string
   asToggle?: boolean
   iconSize?: number
 }
 
-const ThemeSwitcher = ({ asToggle = false, iconSize = 5, ...props }: Props) => {
+
+const ThemeSwitcher: React.FC<IThemeSwitcher> = ({ asToggle = false, iconSize = 5, ...props }: IThemeSwitcher) => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
   const isDark = theme === 'dark'

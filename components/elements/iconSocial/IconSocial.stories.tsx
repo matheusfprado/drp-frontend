@@ -1,22 +1,22 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import Header, { IHeader } from './Header';
-import { mockHeaderProps } from './Header.mocks';
+import IconSocial, { ISocial } from './IconSocial';
+import { mockIconSocialProps } from './IconSocial.mocks';
 
 export default {
-  title: 'layouts/Header',
-  component: Header,
+  title: 'elements/IconSocial',
+  component: IconSocial,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
-} as ComponentMeta<typeof Header>;
+} as ComponentMeta<typeof IconSocial>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Header> = (args) => (
-  <Header {...args} />
+const Template: ComponentStory<typeof IconSocial> = (args) => (
+  <IconSocial {...args} />
 );
 
 export const Base = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 
 Base.args = {
-  ...mockHeaderProps.header,
-} as IHeader;
+  ...mockIconSocialProps.base,
+} as ISocial;

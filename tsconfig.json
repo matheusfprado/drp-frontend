@@ -23,6 +23,7 @@
       "@/libraries/*": ["libraries/*"],
       "@/hooks/*": ["hooks/*"],
       "@/styles/*": ["styles/*"],
+      "@/public/*": ["public/*"],
       "@/types": ["types/index"],
       "@/types/*": ["types/*"],
       "~/*": ["public/*"]

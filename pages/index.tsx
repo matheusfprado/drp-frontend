@@ -1,8 +1,9 @@
-import { Anchor } from '@/components/elements'
-import { PageLayout } from '@/components/layouts/partials'
-import { siteMeta } from '@/config/general'
+import CardNumber from '@/components/forms/cardNumber/CardNumber'
 import { usePlausible } from 'next-plausible'
 import Banner from '~/images/banner.svg'
+import { Anchor } from '../components/elements'
+import { PageLayout } from '../components/layouts/partials'
+import { siteMeta } from '../config/general'
 
 
 
@@ -23,6 +24,8 @@ export default function Home() {
             {siteMeta.description}. <br />
             Pre-configured with TailwindUI and some additional components.
           </p>
+          <CardNumber title={'Número do cartão'} name={'creditCard'} register={undefined}  />
+
           <div className='flex justify-center py-8 mx-auto space-x-4'>
             <Anchor href='/empty' className='inline-block px-5 text-sm btn btn--primary btn--md'>
               Empty page

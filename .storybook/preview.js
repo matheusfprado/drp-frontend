@@ -1,6 +1,5 @@
+import '@/styles/tailwind.scss';
 import * as NextImage from 'next/image';
-import '../styles/custom.css';
-import '../styles/tailwind.css';
 
 const BREAKPOINTS_INT = {
   xs: 375,
@@ -12,7 +11,6 @@ const BREAKPOINTS_INT = {
 
 const customViewports = Object.fromEntries(
   Object.entries(BREAKPOINTS_INT).map(([key, val], idx) => {
-    console.log(val);
     return [
       key,
       {
@@ -43,4 +41,8 @@ export const parameters = {
     },
   },
   viewport: { viewports: customViewports },
+};
+
+export const globalTypes = {
+  darkMode: true,
 };

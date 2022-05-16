@@ -1,12 +1,17 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import BaseTemplate, { IBaseTemplate } from './BaseTemplate';
+import BaseTemplateDocumentation from './BaseTemplate.documentation.mdx';
 import { mockBaseTemplateProps } from './BaseTemplate.mocks';
-
 export default {
   title: 'templates/BaseTemplate',
   component: BaseTemplate,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
+  parameters: {
+    docs: {
+      page: BaseTemplateDocumentation,
+    },
+  },
 } as ComponentMeta<typeof BaseTemplate>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

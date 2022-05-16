@@ -1,6 +1,6 @@
+import { siteMeta } from '@/config/general'
 import Head from 'next/head'
 import { FC } from 'react'
-import { siteMeta } from '@/config/general'
 
 interface IMetaHeader {
   title: string

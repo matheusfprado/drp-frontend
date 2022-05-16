@@ -1,7 +1,7 @@
 import '@/libraries/fontloader'
 import '@/styles/custom.css'
 // import { Maintenance } from '@/components/partials'
-import '@/styles/tailwind.css'
+import '@/styles/tailwind.scss'
 import PlausibleProvider from 'next-plausible'
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'

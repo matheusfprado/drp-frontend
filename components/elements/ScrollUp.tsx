@@ -1,6 +1,6 @@
+import useIsScrolled from '@/hooks/useIsScrolled'
 import { ArrowUp } from 'akar-icons'
 
-import useIsScrolled from '@/hooks/useIsScrolled'
 
 const ScrollUp = () => {
   const isScrolled = useIsScrolled(400)
