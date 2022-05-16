@@ -5,6 +5,7 @@ const cpfInput: ICPFInput = {
   title: 'CPF Document',
   name: 'document_number',
   register: undefined,
+  useSchema: false,
   error: {
     message: 'campo obrigatório.'
   }
